@@ -16,4 +16,6 @@ void main() {
   double PosicaoFinal = PosicaoInicial! +
       (VelocidadeInicial! * Tempo) +
       Aceleracao! * (Tempo * Tempo) / 2;
+
+  print("A sua posição final é: ${PosicaoFinal}");
 }
